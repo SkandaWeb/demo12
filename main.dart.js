@@ -41688,9 +41688,9 @@ while(true)switch(s){case 0:m={}
 m.a=!0
 s=3
 return A.G(a.jl(0),$async$ux)
-case 3:if(c/1024/1024>2.5){o=p.c
+case 3:if(c/1024/1024>5){o=p.c
 o.toString
-new A.dt().eg("Image size should be lower than 2 MB",o,3)
+new A.dt().eg("Image size should be lower than 5 MB",o,3)
 q=m.a=!1
 s=1
 break}o=document.createElement("img")
