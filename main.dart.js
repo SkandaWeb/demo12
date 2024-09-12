@@ -51684,7 +51684,7 @@ if(r.h(s,n)!=null)for(r=J.al(r.h(s,n));r.t();){p=A.SH(r.gF(r))
 o=p.x
 o.toString
 p.x="https://vizit.in"+o
-q.push(p)}this.a.$1([!0,q])}else this.a.$1([!1,r.h(s,"status"),r.h(s,"message")])}this.a.$1([!1])},
+q.push(p)}this.a.$1([!0,q])}else this.a.$1([!1,r.h(s,"status"),r.h(s,"message")])}else this.a.$1([!1])},
 $S:17}
 A.ald.prototype={
 $1(a){var s,r,q,p,o,n="property"
@@ -51695,7 +51695,7 @@ if(r.h(s,n)!=null)for(r=J.al(r.h(s,n));r.t();){p=A.SH(r.gF(r))
 o=p.x
 o.toString
 p.x="https://vizit.in"+o
-q.push(p)}this.a.$1([!0,q])}else this.a.$1([!1,r.h(s,"status"),r.h(s,"message")])}this.a.$1([!1])},
+q.push(p)}this.a.$1([!0,q])}else this.a.$1([!1,r.h(s,"status"),r.h(s,"message")])}else this.a.$1([!1])},
 $S:17}
 A.alc.prototype={
 $1(a){var s,r,q,p,o,n="property"
@@ -51706,7 +51706,7 @@ if(r.h(s,n)!=null)for(r=J.al(r.h(s,n));r.t();){p=A.SH(r.gF(r))
 o=p.x
 o.toString
 p.x="https://vizit.in"+o
-q.push(p)}this.a.$1([!0,q])}else this.a.$1([!1,r.h(s,"status"),r.h(s,"message")])}this.a.$1([!1])},
+q.push(p)}this.a.$1([!0,q])}else this.a.$1([!1,r.h(s,"status"),r.h(s,"message")])}else this.a.$1([!1])},
 $S:17}
 A.ol.prototype={
 hQ(){return A.ai(["image",this.a],t.N,t.z)},
@@ -53001,15 +53001,27 @@ case 2:n.$1(d)
 return A.A(null,r)}})
 return A.B($async$n9,r)},
 CN(a,b,c){return this.asD(a,b,c)},
-asD(a,b,c){var s=0,r=A.C(t.z),q,p,o,n
-var $async$CN=A.w(function(d,e){if(d===1)return A.z(e,r)
-while(true)switch(s){case 0:q=A.c2("https://api.vizit.in/api/uup/property/add",0,null)
-p=t.N
-o=A.ai(["Content-Type","application/json ","Access-Control-Allow-Origin","*"],p,p)
-n=c
+asD(a,b,c){var s=0,r=A.C(t.z),q,p,o,n,m,l,k,j,i,h,g,f,e,d
+var $async$CN=A.w(function(a0,a1){if(a0===1)return A.z(a1,r)
+while(true)switch(s){case 0:l=A.c2("https://api.vizit.in/api/uup/property/add",0,null)
+k=t.N
+j=A.ai(["Content-Type","application/json ","Access-Control-Allow-Origin","*"],k,k)
+i=b.b
+h=b.c
+g=b.d
+f=b.e
+e=b.f
+if(e==null)e=0
+q=b.r
+p=b.x
+o=b.y
+n=b.z
+m=b.at
+if(m==null)m=0
+d=c
 s=2
-return A.F(A.i6(q,B.D.di(A.ai(["bid",1,"uid",1,"propertyid",b.a,"name",b.b,"type",b.c,"location",b.d,"area",b.e,"areatype",b.f,"price",b.r,"thumb",b.x,"map",b.y,"description",b.z,"phone",b.Q,"whatsapp",b.as,"category",b.at,"images",a],p,t.z)),o),$async$CN)
-case 2:n.$1(e)
+return A.F(A.i6(l,B.D.di(A.ai(["bid",1,"uid",1,"propertyid",b.a,"name",i,"type",h,"location",g,"area",f,"areatype",e,"price",q,"thumb",p,"map",o,"description",n,"phone",b.Q,"whatsapp",b.as,"category",m,"images",a],k,t.z)),j),$async$CN)
+case 2:d.$1(a1)
 return A.A(null,r)}})
 return A.B($async$CN,r)},
 zW(a){var s=0,r=A.C(t.z),q,p,o,n
