@@ -34,12 +34,34 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3503198098";
+    const serviceWorkerVersion = "1143576850";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 <body>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script> 
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script> 
+
+  <script> 
+  
+       const firebaseConfig = { 
+  
+        apiKey: 'AIzaSyAbZW4VpjTKDOVl7SUTLzgA-KP5ng31i6I',
+        appId: '1:1047368686247:web:c88cd2d9e3ad7de0545982',
+        messagingSenderId: '1047368686247',
+        projectId: 'skanda-vizit',
+        authDomain: 'skanda-vizit.firebaseapp.com',
+        storageBucket: 'skanda-vizit.appspot.com',
+        measurementId: 'G-MHRMMC2K4K',
+      };
+  
+    // Initialize Firebase 
+    const app = initializeApp(firebaseConfig); 
+    const analytics = getAnalytics(app); 
+    
+  </script>
+    
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
